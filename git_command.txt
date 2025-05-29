@@ -1,0 +1,44 @@
+git --version (Gives you the version of the git)
+git status (it tell the status of the git, if it is created or not)
+git init (it will initilize the git but gives the branch as a master)
+git init -b main (by this we can initilize the git but branch name will be main)
+git log (by this we can see the list of commit)
+git add filename (will add the file in the staging area from where we can commit the current file)
+git add . (if you want to add all the files in staging area)
+git commit -m "Here we give the logical massege like if we have resolve an issue" (By this we can commit the file)
+git commit -a -m "Write your message" (here before commiting we have to add in the staging area but '-a' will add the file name in the staging area and the the same (this command) will commit the current file)
+git diff (this will tell you what changes are made in the current file an your file in the working diractory)
+git diff --staged (this will tell the difference when your file is in the staging area)
+
+####################################################################
+############How to remove file from the git#########################
+####################################################################
+git rm --cached filename
+
+
+=================or create a new repository on the command line===========================
+echo "# git-course" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:PULAKBARAL/git-course.git
+git push -u origin main
+
+=========================================================================================
+
+======================= Creating SSH key for login from the local system to GitHub website ==================================
+ssh-keygen -o (It will create the key for ssh) (we have to press enter (we can modify if we want))
+it will give us the file location where the key has generated we have open the folder and file (.pub) using command prompt
+cat filename.pub (for reading the content of the file)
+copy the key 
+then open the setting in the GitHub website find the tab SSH and GPG key 
+click on the new SSH key paste the copied key there
+
+
+####################################################################
+############Command apart from git#########################
+####################################################################
+mkdir folder_name (create a folder)
+
+
