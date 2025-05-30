@@ -15,6 +15,10 @@ git diff --staged (this will tell the difference when your file is in the stagin
 ####################################################################
 git rm --cached filename
 
+=========Concept of tagging===================
+git tag -a V1.0 -m "First release" (For adding tag)
+git tag (displaying all the tags)
+
 
 =================or create a new repository on the command line===========================
 echo "# git-course" >> README.md
